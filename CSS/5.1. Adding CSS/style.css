@@ -1,0 +1,41 @@
+/* html {
+    background: green;
+} */
+
+/* CSS Selectors */
+
+/* - Element Selector */
+h1 {
+    color:rgb(140, 13, 165);
+}
+
+/* Class Selector */
+
+.red-text {
+    color: rgb(156, 2, 2);
+}
+
+/* Id Selector */ 
+/* Unlike Classes, Id selector should be unique in the entire file. */
+#main {
+    color:chartreuse;
+}
+
+/* Attribute Selector */
+/* html-tag[attribute] {
+    main-code
+} */
+
+/* p[draggable] {
+    color: blue;
+} */
+
+p[draggable="false"] {
+    color: blue;
+}
+
+/* Universal Selectors */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
